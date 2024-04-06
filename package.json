@@ -9,12 +9,13 @@
   "scripts": {
     "dev": "nodemon",
     "lint": "eslint . --fix",
-    "pretty":"prettier --write src/server.ts"
-  }
-,  
+    "pretty": "prettier --write src/server.ts"
+  },
   "license": "Apache License, Version 2.0",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.18.2",
+    "mongoose": "^8.3.0",
     "morgan": "^1.10.0",
     "typescript": "^5.2.2"
   },
